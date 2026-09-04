@@ -1,0 +1,103 @@
+    /* Aqui começa o root CSS */
+
+:root{
+
+    --pretoazulado: #1A1210;
+    --azullesbico: #D9A441;
+    --azulnuvem: #F2E8DC;
+    --ciano: #6B3E26;
+    --branco: #FFFFFF;
+
+}
+
+/* virtualização */
+
+@font-face {
+    font-family: milk_creamm ;
+    src: url(../fonts/milky_cream_2/Milky_Cream.otf);
+}
+@font-face {
+    font-family: assimseja ;
+    src:url(../fonts/board_of_directors/Board_of_Directors_Hv.otf);
+}
+
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    color:var(--azullesbico);
+    font-family: milk_creamm;
+    
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color:var(--pretoazulado);
+    font-family: assimseja;
+}
+
+hr{
+    width: 70%;
+    height: 3px;
+    background-color:  var(--ciano);
+
+}
+
+p{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+img{
+    height: 230px;
+    margin: 10px;
+    border-radius: 8px;
+    filter: blur(0.5px) grayscale(50);
+
+    &:hover{
+        filter: grayscale(0);
+        transform: scale(1.05);
+        transition: 0.5s ease-in;
+        
+        
+    }
+}
+
+.caixa{
+    width: fit-content;
+    margin: auto;
+
+}
+
+
+video{
+    width: 70%;
+    margin: auto;
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
